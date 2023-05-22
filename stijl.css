@@ -1,0 +1,16 @@
+h1 { font-size : 16 pt ;
+color : green ;
+}
+
+h2 { font-size : 12 pt ;
+color : red ;
+}
+
+p { font-size : 18 pt ;
+color : yelo ;
+}
+
+body {
+ background-image: url("download.png");
+}
+	

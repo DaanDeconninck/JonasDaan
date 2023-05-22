@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<title>Formulier Sportkamp 2023</title>
+	</head>
+	
+	<body>
+		
+		<form action="toon_waarden_post.php" method="post" >
+
+        	<p>Voornaam : <input type="text" name="voornaam" /></p>
+        	<!-- je vindt na submit de voornaam terug in $_POST['voornaam'] -->
+        	
+			<p>Achternaam : <input type="text" name="achternaam" /></p>
+			<p> Geslacht: <select name="Geslacht">
+			<option>man</option>
+			<option>vrouw</option>
+			<option>x</option>
+			</select> </p>
+			<p> Leeftijd: <select name="leeftijdscluster">
+			<option>7-8</option>
+			<option>9-10</option>
+			<option>11-12</option>
+			<option>13-14</option>
+			<option>15-16</option>
+			<option>17-18</option>
+			</select> </p>
+			<p>telefoonnummer ouder: <input type="text" name="telefoonnummer_1"/></p>
+			<p>e-mail adress ouder: <input type="text" name="e-mail_1"/></p>
+			<p>Welke activiteit wenst uw kind op de laatste dag van het sportkamp te doen?</p>
+			<p><input type="checkbox" name="kajakken" value="kajakken"/> kajakken op de Ourthe</p>
+			<p><input type="checkbox" name="paintballen" value="paintballen"/> paintballen</p>
+			<p><input type="checkbox" name="trampolinepark" value="trampolinepark"/> trampolinepark</p>
+			<p><input type="checkbox" name="hoogteparcours" value="hoogteparcours"/> hoogteparcours</p>
+			<p><input type="checkbox" name="lasershooting" value="lasershooting"/> lasershooting</p>
+			<p>Heeft uw zoon/dochter medische kwaaltjes?</p>
+			<p><textarea name="medische_kwaaltjes" rows="4" cols="25"></textarea></p>
+			<p>Andere opmerkingen:</p>
+			<p><textarea name="opmerkingen" rows="4" cols="25"></textarea></p>
+			<p>Verzend informatie : <input type="submit" name="verzend" value="Verzend" /></p>
+        
+        </form>
+		
+				
+		
+	
+	</body>	
+	
+</html>

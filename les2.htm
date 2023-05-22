@@ -1,0 +1,31 @@
+<h1 style="color:blue;">Les 2</h1>
+<p>
+In les 2 gebruikten we onze ‘zelfgemaakte’ arduino in de praktijk.
+We leerden hoe we de arduino moeten programmeren voor verschillende functies. Het programmeren gebeurde op ARDUINO IDE.
+Een voorbeeld van wat we geprogrammeerd hebben is het knipperen van een LED.
+Hierna gingen we met de sensoren aan de slag. We leerden hoe we de informatie van de sensoren konden opvragen vanaf de pc.
+Vervolgens leerden we dan zelfs hoe we dit rechtstreeks kunnen koppelen aan een site zodat de data in grafieken en dergelijke te zien is. <br />
+</p>
+
+<h2 style="color:red;">Zie hier een afbeelding van deze arduino:</h2>
+<br />
+
+<IMG SRC="arduino.jpg" WIDTH="420" HEIGHT="400" ALT="Arduino">
+
+<br />
+Een voorbeeld van code die we schreven voor de arduino is: <br />
+
+
+<pre>
+void setup(){
+		 pinMode(10, OUTPUT);
+}
+void loop(){
+		 digitalWrite(10, HIGH);
+		 delay(1000);
+		 digitalWrite(10, LOW);
+		 delay(1000);
+}
+</pre>
+
+Deze code zorgt ervoor dat een LED afwisselend een seconde aan en uit staat.
